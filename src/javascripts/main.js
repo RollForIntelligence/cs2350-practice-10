@@ -96,4 +96,5 @@ function displayCards() {
 document.querySelector('#myForm').onsubmit = addNewCard
 document.querySelector('#new_card').onclick = hideCards
 document.querySelector(".to-cancel").onclick = hideForm
+
 displayCards()
